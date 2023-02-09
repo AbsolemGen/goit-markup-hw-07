@@ -4,6 +4,9 @@
   }
 
   /* -----------HEADER------------ */
+  .menu-open {
+    display: none;
+  }
   .header-list {
     display: flex;
     margin-left: 76px;
@@ -65,15 +68,13 @@
 
   /* ---------------FOOTER--------------- */
   .tablet-version {
-    display:inline
-    gap: 0;
+    display: flex;
   }
 
   .footer {
     padding: 100px 15px;
     background-color: var(--title-color);
   }
- 
 
   .footer-box {
     display: flex;
@@ -89,12 +90,9 @@
     gap: 16px;
     margin-top: 16px;
   }
-  
 
   .subscribe-input-box {
     display: block;
     margin-left: 80px;
   }
-
-  
 }
