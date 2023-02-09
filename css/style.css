@@ -190,32 +190,7 @@ img {
 .auth-nav-link:focus {
   color: #404bbf;
 }
-.mob-nav-tel {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  color: #4d5ae5;
-  margin-bottom: 40px;
-}
-.mob-nav-mail {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #434455;
-  margin-bottom: 40px;
-}
-.mob-soc-list {
-  display: flex;
-  gap: 56px;
-  justify-content: center;
-  align-items: center;
-}
+
 /* ---------modal=menu ------------*/
 .menu-open {
   width: 32px;
@@ -255,7 +230,7 @@ img {
   height: 100%;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow: auto;
   padding: 0;
 }
 
@@ -280,6 +255,7 @@ img {
   background-color: var(--blue-color);
   border-color: transparent;
 }
+
 .mob-nav-item {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -295,10 +271,12 @@ img {
 .mob-nav-item {
   margin-bottom: 40px;
 }
-.mob-nav-list:last-child {
-  margin-bottom: 284px;
+.mob-menu > .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .mob-nav-item:hover,
 .mob-nav-item:focus {
   color: #404bbf;
@@ -323,6 +301,42 @@ img {
 .mob-soc-item {
   width: 40px;
   height: 40px;
+}
+.mob-nav-list:last-child {
+  margin-bottom: 100px;
+}
+.mob-nav-tel {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #4d5ae5;
+  margin-bottom: 40px;
+}
+.mob-nav-mail {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-bottom: 48px;
+}
+.mob-soc-list {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  align-items: center;
+}
+.mob-menu-bot {
+  display: flex;
+  flex-direction: column;
+}
+.no-scroll {
+  overflow: hidden;
 }
 
 /* --------------studio(main page)---------------- */
