@@ -230,7 +230,7 @@ img {
   height: 100%;
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  overflow: scroll;
   padding: 0;
 }
 
