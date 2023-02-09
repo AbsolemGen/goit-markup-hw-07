@@ -328,8 +328,6 @@ img {
 .mob-soc-list {
   display: flex;
   gap: 56px;
-  justify-content: center;
-  align-items: center;
 }
 .mob-menu-bot {
   display: flex;
