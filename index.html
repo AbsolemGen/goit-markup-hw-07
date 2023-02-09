@@ -17,6 +17,10 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobil.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+
     <title>WebStudio</title>
 </head>
 
@@ -38,20 +42,82 @@
                 <li class="auth-nav-item"><a href="tel:+110001111111" class="auth-nav-link link">+11 (000)
                         111-11-11</a></li>
             </ul>
+            <button class="menu-open" type="button" data-menu-open>
+                <svg class="menu-open-icon" width="32" height="22">
+                    <use class="open-icon" href="./images/icons.svg#burger-icon"></use>
+                </svg>
+            </button>
+            <!-- <button type="button" class="menu-open" data-menu-open>
+                <svg class="menu-open-icon" width="100%" height="100%">
+                    <use class="icon-soc-link" href="./images/icons.svg#burger-icon"></use>
+                </svg>
+            </button> -->
         </div>
+        </div>
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="container">
+                <button type="button" class="mobail-close-btn" data-menu-close>
+                    <svg class="close-icon" width="8px" height="8px">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-nav">
+                    <ul class="mob-nav-list list">
+                        <li class="mob-nav-item"><a href="./index.html" class="mob-nav-link link"></a>Studio</li>
+                        <li class="mob-nav-item"><a href="./portfolio.html" class="mob-nav-link link"></a>Portfolio</li>
+                        <li class="mob-nav-item"><a href="" class="mob-nav-link link"></a>Contacts</li>
+                    </ul>
+                </nav>
+                <a href="tel:+110001111111" class="mob-nav-tel link">+11 (000) 111-11-11</a>
+                <a href="mailto:info@devstudio.com" class="mob-nav-mail link">info@devstudio.com</a></li>
+
+
+                <ul class="mob-soc-list list">
+                    <li class="mob-soc-item">
+                        <a href="" class="mob-soc-link">
+                            <svg class="team-soc-icon" width="16" height="16">
+                                <use class="icon-soc-link" href="./images/icons.svg#icon-instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-soc-item">
+                        <a href="" class="mob-soc-link">
+                            <svg class="team-soc-icon" width="16" height="16">
+                                <use class="icon-soc-link" href="./images/icons.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-soc-item">
+                        <a href="" class="mob-soc-link">
+                            <svg class="team-soc-icon" width="16" height="16">
+                                <use class="icon-soc-link" href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-soc-item">
+                        <a href="" class="mob-soc-link">
+                            <svg class="team-soc-icon" width="16" height="16">
+                                <use class="icon-soc-link" href="./images/icons.svg#icon-linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
     </header>
     <main>
-        <!-- Section 2 HERO  -->
-
+        <!-- HERO  -->
         <section class="hero">
             <div class="hero-box container">
-                <h1 class="hero-title">Effective Solutions for Your Business</h1>
+                <h1 class="hero-title">Effective Solutions For Your Business</h1>
                 <button type="button" class="hero-btn" data-modal-open>Order Service</button>
             </div>
         </section>
         <!-- ----------FEATURES---------- -->
-        <section class="features sections">
-
+        <section class="features">
             <div class="container">
                 <ul class="features-list list ">
                     <li class="features-item">
@@ -101,9 +167,9 @@
                 </ul>
             </div>
         </section>
-        <!-- Section 3 -->
-        <section class="sections">
-            <div class="benefits-box container">
+        <!-- benefist -->
+        <section class="benefist">
+            <div class="benefits-box ">
                 <h2 class=" benefits-tittle title">What are we doing</h2>
                 <ul class="benefits-list list flex">
                     <li class="benefits-item ">
@@ -118,10 +184,11 @@
                 </ul>
             </div>
         </section>
+        <!-- team -->
         <section class="sections team  list">
             <div class="team-box container">
                 <h2 class="team-title title">Our Team</h2>
-                <ul class="team-list list flex">
+                <ul class="team-list list ">
                     <li class="team-item">
                         <img src="./images/team1.jpg" alt="Mark" width="264" height="260" />
                         <div class="team-item-box">
@@ -293,6 +360,7 @@
                 </ul>
             </div>
         </section>
+        <!-- Customers -->
         <section class=" customers">
             <div class="container box-customers">
                 <h2 class="customer-title title">Customers</h2>
@@ -345,45 +413,47 @@
     </main>
     <footer class="footer">
         <div class="container footer-box">
-            <div class="">
-                <a href="./index.html" class="logo  link">WEB<span class="footer-logo-white link">STUDIO</span></a>
-                <p class="footer-text">
-                    Increase the flow of customers and<br> sales for your business with
-                    digital<br> marketing & growth solutions.
-                </p>
-            </div>
-            <div class="footer-soc">
-                <h3 class="footer-soc-title">Social media</h3>
-                <ul class="footer-soc-list list">
-                    <li class="footer-soc-item">
-                        <a href="" class="footer-soc-link">
-                            <svg class="footer-soc-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-soc-item">
-                        <a href="" class="footer-soc-link">
-                            <svg class="footer-soc-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-soc-item">
-                        <a href="" class="footer-soc-link">
-                            <svg class="footer-soc-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-soc-item">
-                        <a href="" class="footer-soc-link">
-                            <svg class="footer-soc-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+            <div class="tablet-version">
+                <div class="footer-info">
+                    <a href="./index.html" class="logo  link">WEB<span class="footer-logo-white link">STUDIO</span></a>
+                    <p class="footer-text">
+                        Increase the flow of customers and<br> sales for your business with
+                        digital<br> marketing & growth solutions.
+                    </p>
+                </div>
+                <div class="footer-soc">
+                    <h3 class="footer-soc-title">Social media</h3>
+                    <ul class="footer-soc-list list">
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link">
+                                <svg class="footer-soc-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link">
+                                <svg class="footer-soc-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link">
+                                <svg class="footer-soc-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link">
+                                <svg class="footer-soc-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="subscribe-input-box">
                 <h2 class="footer-soc-title">Subscribe</h2>
@@ -398,7 +468,7 @@
             </div>
         </div>
     </footer>
-    </div>
+    <!-- modal input -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
@@ -456,12 +526,12 @@
             </form>
         </div>
 
-    </div>
-    <script src="./js/modal.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        <script src="./js/modal.js"></script>
+        <script src="./js/mobail.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

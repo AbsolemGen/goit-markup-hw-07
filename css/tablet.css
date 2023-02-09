@@ -1,0 +1,116 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  /* --------------HEADER---------------- */
+  .auth-nav-link {
+    padding: 0;
+  }
+  .header {
+    height: 70px;
+    margin: 0 auto;
+  }
+  .menu-open {
+    display: none;
+  }
+  .header-list {
+    display: flex;
+    margin-left: 120px;
+  }
+
+  .auth-nav {
+    display: block;
+    margin-left: auto;
+    padding-top: 16px;
+  }
+  .header-link.active::after {
+    bottom: 1px;
+  }
+  /* --------------HERO---------------- */
+  .hero {
+    padding-top: 111px;
+    padding-bottom: 108px;
+  }
+  .hero-title {
+    max-width: 528px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+  /* ---------------features--------------- */
+  .features-list {
+    display: flex;
+    gap: 24px;
+  }
+  .features-list .features-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* -----------------benfist------------------------ *
+
+  /* ------------------team--------------------- */
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .features-item > .item-title {
+    text-align: left;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+  /* ------------------Customer--------------------- */
+
+  .customers-list {
+    gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
+  /* ------------FOOTER------------- */
+
+  .footer {
+    padding: 96px 108px;
+  }
+  .footer > .container {
+    padding: 0;
+  }
+  .tablet-version {
+    display: flex;
+  }
+
+  .footer-info {
+    text-align: left;
+  }
+  .footer-text {
+    margin: 0;
+  }
+  .footer-soc {
+    margin-left: 24px;
+  }
+  .footer-soc-title {
+    text-align: left;
+  }
+  .subscribe-input {
+    width: 264px;
+    margin: 0;
+  }
+
+  .subscribe-form {
+    display: flex;
+    gap: 24px;
+  }
+  .subscribe-btn {
+    margin: 0;
+  }
+}
