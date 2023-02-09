@@ -110,8 +110,8 @@
 <symbol id="icon-telegram" viewBox="0 0 38 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M38.4 0l-38.4 18 12.272 3.788 18.928-14.788-14.397 16.186 0.012 0.004-0.014-0.004v8.814l6.882-6.691 8.718 2.691 6-28z"></path>
 </symbol>
-<symbol id="burger-icon" viewBox="0 0 32 22">
-<path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.133h-19.2v2.133z"></path>
+<symbol id="burger-icon" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.961 29.162h42.975M1.961 15.62h42.975M1.961 2.079h42.975"></path>
 </symbol>
 </defs>
 </svg>
