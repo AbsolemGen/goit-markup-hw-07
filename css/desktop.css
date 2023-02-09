@@ -7,6 +7,10 @@
   .menu-open {
     display: none;
   }
+
+  .mob-menu {
+    display: none;
+  }
   .header-list {
     display: flex;
     margin-left: 76px;
