@@ -65,7 +65,8 @@
   /* ---------------features--------------- */
   .features-list {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .features-list .features-item {
     width: calc((100% - 24px) / 2);
@@ -92,10 +93,17 @@
   /* ------------------Customer--------------------- */
 
   .customers-list {
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .customer-item {
+    max-width: 168px;
   }
   .customers-item {
     width: calc((100% - 24px * 2) / 3);
+  }
+  .customer-item {
+    max-width: 168px;
   }
   /* ------------FOOTER------------- */
 
@@ -106,16 +114,19 @@
     padding: 0;
   }
   .tablet-version {
+    margin-bottom: 72px;
     display: flex;
   }
 
   .footer-info {
+    padding: 0;
     text-align: left;
   }
   .footer-text {
     margin: 0;
   }
   .footer-soc {
+    padding: 0;
     margin-left: 24px;
   }
   .footer-soc-title {
@@ -132,5 +143,24 @@
   }
   .subscribe-btn {
     margin: 0;
+  }
+
+  /*---------- PORTFOLIO-------- */
+  .btn-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .main-item {
+    max-width: calc((100% - 24px) / 2);
   }
 }

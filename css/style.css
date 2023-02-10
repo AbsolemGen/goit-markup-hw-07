@@ -97,8 +97,7 @@ img {
 /* -----------------LOGO------------------ */
 
 .logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin: auto 0;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -631,17 +630,15 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .btn-list {
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
-}
-/* --------------HERO---------------- */
-/* --------------HERO---------------- */
-.portfolio {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+/* --------------HERO portfolio---------------- */
+/* --------------HERO portfolio---------------- */
+.portfolio {
 }
 .main-item {
   transition: color 250ms;
@@ -693,7 +690,7 @@ img {
 }
 .footer-info {
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .footer-text {
   margin: 0 auto;
@@ -719,8 +716,8 @@ img {
   align-items: center;
   justify-content: center;
 }
-.footer-soc {
-  padding-bottom: 72px;
+.tablet-version {
+  margin-bottom: 72px;
 }
 
 .footer-soc-list {
