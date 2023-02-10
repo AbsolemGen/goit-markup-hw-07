@@ -33,7 +33,24 @@
   .hero {
     padding-top: 111px;
     padding-bottom: 108px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bgi-tab.jpg);
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bgi-tab-x2.jpg);
+    }
+  }
+
   .hero-title {
     max-width: 528px;
     font-family: "Roboto", sans-serif;
