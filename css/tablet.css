@@ -24,7 +24,6 @@
   .auth-nav {
     display: block;
     margin-left: auto;
-    padding-top: 16px;
   }
   .header-link.active::after {
     bottom: 1px;

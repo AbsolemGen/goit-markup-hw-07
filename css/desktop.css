@@ -46,6 +46,9 @@
     gap: 40px;
     padding: 0;
   }
+  .auth-nav {
+    display: flex;
+  }
   /* ----------HERO---------- */
   .hero-btn {
     margin-top: 48px;
