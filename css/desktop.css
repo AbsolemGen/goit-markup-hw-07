@@ -46,7 +46,10 @@
     gap: 40px;
     padding: 0;
   }
-
+  /* ----------HERO---------- */
+  .hero-btn {
+    margin-top: 48px;
+  }
   /* ----------features------------- */
   .features-img-box {
     background: #f4f4fd;
@@ -99,33 +102,21 @@
 
   .benefits-box {
     display: unset;
+    padding-bottom: 120px;
   }
-
+  .benefist {
+    padding-bottom: 120px;
+  }
   /* ---------------FOOTER--------------- */
-  .tablet-version {
-    display: flex;
-  }
-
-  .footer {
-    padding: 100px 15px;
-    background-color: var(--title-color);
-  }
-
-  .footer-box {
-    display: flex;
-
-    align-items: baseline;
-  }
   .footer-soc {
     margin-left: 120px;
   }
-
-  .footer-soc-list {
-    display: flex;
-    gap: 16px;
-    margin-top: 16px;
+  .footer-box {
+    column-gap: 0;
   }
-
+  .footer > .container {
+    max-width: 1158px;
+  }
   .subscribe-input-box {
     display: block;
     margin-left: 80px;

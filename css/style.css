@@ -572,6 +572,7 @@ img {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   column-gap: 16px;
   row-gap: 72px;
 }
@@ -690,7 +691,6 @@ img {
 }
 .footer-info {
   text-align: center;
-  margin-bottom: 72px;
 }
 .footer-text {
   margin: 0 auto;
@@ -709,15 +709,14 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-  align-items: center;
 }
+
 .footer-box {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-.tablet-version {
-  margin-bottom: 72px;
+  row-gap: 72px;
 }
 
 .footer-soc-list {

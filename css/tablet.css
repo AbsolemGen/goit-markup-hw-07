@@ -61,6 +61,9 @@
     text-align: center;
     letter-spacing: 0.02em;
   }
+  .hero-btn {
+    margin-top: 40px;
+  }
 
   /* ---------------features--------------- */
   .features-list {
@@ -94,57 +97,42 @@
 
   .customers-list {
     column-gap: 24px;
-    row-gap: 72px;
-  }
-  .customer-item {
-    max-width: 168px;
   }
   .customers-item {
-    width: calc((100% - 24px * 2) / 3);
-  }
-  .customer-item {
     max-width: 168px;
   }
-  /* ------------FOOTER------------- */
 
+  /* ------------FOOTER------------- */
   .footer {
-    padding: 96px 108px;
   }
   .footer > .container {
-    padding: 0;
+    max-width: 580px;
   }
-  .tablet-version {
-    margin-bottom: 72px;
+  .footer-box {
     display: flex;
-  }
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 
+    column-gap: 24px;
+  }
   .footer-info {
-    padding: 0;
+    margin-bottom: 0;
     text-align: left;
   }
-  .footer-text {
-    margin: 0;
-  }
-  .footer-soc {
-    padding: 0;
-    margin-left: 24px;
-  }
-  .footer-soc-title {
-    text-align: left;
-  }
-  .subscribe-input {
-    width: 264px;
-    margin: 0;
-  }
-
   .subscribe-form {
     display: flex;
     gap: 24px;
   }
-  .subscribe-btn {
+  .subscribe-input-box {
     margin: 0;
   }
-
+  .subscribe-input {
+    width: 264px;
+  }
+  .footer-soc-title {
+    text-align: left;
+  }
   /*---------- PORTFOLIO-------- */
   .btn-list {
     display: flex;
